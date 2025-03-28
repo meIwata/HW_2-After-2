@@ -162,12 +162,20 @@ a:focus {
 
 /*end header section*/
 /* slider section */
+/* 6. */
 .slider_section {
-  background-image: url(../images/hero.jpg);
+  background-image: url(../images/hero.webp);
   padding: 6% 0;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+@supports not (background-image: url(../images/hero.webp)) {
+  .slider_section {
+    background-image: url(../images/hero.jpg);
+  }
+}
+/* 6. */
 
 .slider_section .row {
   -webkit-box-align: center;
