@@ -568,5 +568,25 @@ a:focus {
   color: #292929;
 }
 
+
+/* 3 */
+/* 調整 gallery-section 標題文字 */
+section.gallery-section.layout_padding h2 {
+  color: #333; /* 深灰色，提升對比度 */
+}
+
+/* 調整 info_section 段落文字 */
+section.info_section.layout_padding2 p {
+  color: #444; /* 深灰色，提升對比度 */
+}
+
+/* 調整 span 元素文字 */
+span {
+  color: #222; /* 更深的顏色，確保可讀性 */
+}
+/* 3 */
+
+
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
+
